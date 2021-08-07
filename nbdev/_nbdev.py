@@ -3,6 +3,7 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"say_hello": "tutorial.ipynb",
+         "HelloSayer": "tutorial.ipynb",
          "read_nb": "00_export.ipynb",
          "check_re": "00_export.ipynb",
          "check_re_multi": "00_export.ipynb",
@@ -110,10 +111,10 @@ index = {"say_hello": "tutorial.ipynb",
          "clean_cell": "07_clean.ipynb",
          "clean_nb": "07_clean.ipynb",
          "nbdev_clean_nbs": "07_clean.ipynb",
+         "LoadDataStep": "22_pediclescrewPlanner.ipynb",
          "S1": "nbdev_comments.ipynb",
          "S2": "nbdev_comments.ipynb",
-         "S3": "nbdev_comments.ipynb",
-         "HelloSayer": "tutorial.ipynb"}
+         "S3": "nbdev_comments.ipynb"}
 
 modules = ["core.py",
            "export.py",
@@ -124,6 +125,7 @@ modules = ["core.py",
            "merge.py",
            "cli.py",
            "clean.py",
+           "pediclescrewPlanner.py",
            "nbdev_comments.py",
            "tutorial.py"]
 
