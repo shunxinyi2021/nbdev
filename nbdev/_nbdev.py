@@ -2,7 +2,8 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"read_nb": "00_export.ipynb",
+index = {"say_hello": "tutorial.ipynb",
+         "read_nb": "00_export.ipynb",
          "check_re": "00_export.ipynb",
          "check_re_multi": "00_export.ipynb",
          "is_export": "00_export.ipynb",
@@ -112,10 +113,10 @@ index = {"read_nb": "00_export.ipynb",
          "S1": "nbdev_comments.ipynb",
          "S2": "nbdev_comments.ipynb",
          "S3": "nbdev_comments.ipynb",
-         "say_hello": "tutorial.ipynb",
          "HelloSayer": "tutorial.ipynb"}
 
-modules = ["export.py",
+modules = ["core.py",
+           "export.py",
            "sync.py",
            "showdoc.py",
            "export2html.py",
@@ -128,6 +129,6 @@ modules = ["export.py",
 
 doc_url = "https://nbdev.fast.ai/"
 
-git_url = "https://github.com/fastai/nbdev/tree/master/"
+git_url = "https://github.com/shunxinyi2021/nbdev/tree/master/"
 
 def custom_doc_links(name): return None
